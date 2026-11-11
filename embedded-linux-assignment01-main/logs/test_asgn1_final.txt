@@ -1,0 +1,23 @@
+================================
+ Assignment 01 - Task 1 Test
+================================
+[TEST] Running ioctl tests...
+Driver version: asgn1_driver v1.0
+Open count: 3
+Write count: 0
+Read count: 0
+Buffer length: 0
+Last write size: 0
+SET_MODE = 0 successful
+Read after SET_MODE 0: [KERNEL]Hello ASM1
+SET_MODE = 1 successful
+Read after SET_MODE 1: Hello ASM1
+RESET_BUFFER successful
+Stats after RESET_BUFFER:
+Open count: 4
+Write count: 0
+Read count: 0
+Buffer length: 0
+Last write size: 0
+Invalid ioctl: ENOTTY returned correctly
+[PASS] Task 1 ioctl tests completed
